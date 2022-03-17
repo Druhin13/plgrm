@@ -1,0 +1,233 @@
+.section {
+  height: 100vh;
+  background-color: #f7f6f2;
+}
+
+.menu-bar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 7vh;
+  padding-top: 2.5vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 7vw;
+  height: 100%;
+  background-image: url('../images/logo.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.link {
+  padding-right: 1.25vw;
+  padding-left: 1.25vw;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  color: #000;
+  font-size: 0.8vw;
+  text-align: center;
+  letter-spacing: -0.032vw;
+  text-transform: uppercase;
+}
+
+.link.no-underline {
+  text-decoration: none;
+}
+
+.link.no-spacing {
+  padding-right: 0vw;
+  padding-left: 0vw;
+}
+
+.div-block {
+  position: fixed;
+  left: 0%;
+  top: 4.25%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.div-block-2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.body {
+  background-color: #f7f6f2;
+  font-family: Helvetica-now-display, sans-serif;
+  color: #000;
+  font-size: 1vw;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.heading {
+  margin-top: 18vh;
+  text-align: center;
+}
+
+.text-block {
+  font-family: Ivar-headline, sans-serif;
+  font-size: 4vw;
+  font-weight: 400;
+  letter-spacing: -0.208vw;
+}
+
+.text-block.italics {
+  font-family: Ivar-display, sans-serif;
+  font-style: italic;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.5vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.heading-img {
+  width: 7vw;
+  height: 8vh;
+  margin-top: -0.25vh;
+  margin-right: 1.25vw;
+  margin-left: 1.25vw;
+  background-image: url('../images/vh1-rings.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.poster-bg {
+  height: 50vh;
+  background-image: url('../images/production-ID_4926521_024.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18vh;
+  margin-bottom: 2.75vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.paragraph {
+  margin-bottom: 0px;
+  font-size: 0.8vw;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: -0.032vw;
+  text-transform: uppercase;
+}
+
+.div-block-5 {
+  width: 30vw;
+}
+
+.div-block-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33vw;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.div-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33vw;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+@font-face {
+  font-family: 'Helvetica-now-display';
+  src: url('../fonts/HelveticaNowDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Helvetica-now-display';
+  src: url('../fonts/HelveticaNowDisplay-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ivar-headline';
+  src: url('../fonts/IvarHeadline-Regular-TheFontsMaster.com.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ivar-display';
+  src: url('../fonts/IvarDisplay-Regular-TheFontsMaster.com.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ivar-display';
+  src: url('../fonts/IvarDisplay-Italic-TheFontsMaster.com.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
